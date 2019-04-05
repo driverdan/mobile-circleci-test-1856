@@ -66,7 +66,7 @@ jobs:
             - vendor/bundle
 
       - run:
-          name: fastlane tests
+          name: bundle exec fastlane tests
           command: |
             mkdir -p test-results/fastlane
             bundle exec fastlane test
@@ -126,7 +126,7 @@ jobs:
             - vendor/bundle
 
       - run:
-          command: bundle exec fastlane test
+          command: bundle exec fastlane tests
           working_directory: ios
 
       - run:
