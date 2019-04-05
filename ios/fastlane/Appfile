@@ -1,0 +1,8 @@
+app_identifier("org.reactjs.native.example.mobile-circleci-test-1856") # The bundle identifier of your app
+apple_id("itunes@driverdan.com") # Your Apple email address
+
+itc_team_id("118738877") # App Store Connect Team ID
+team_id("6YKR59QXKM") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
