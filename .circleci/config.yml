@@ -80,7 +80,7 @@ jobs:
 
   ios:
     macos:
-      xcode: "10.2"
+      xcode: "10.2.0"
     working_directory: ~/build
 
     # use a --login shell so our "set Ruby version" command gets picked up for later steps
